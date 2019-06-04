@@ -62,10 +62,10 @@ if __name__ == "__main__" :
 
         flag2 = True
         while flag2 :
-            print("알고 싶은 정보")
-            y = mylist("정보")
-            print(y,"\n")
-
+            print("알고 싶은 정보")                                 #   f = open("부산광역시_강서구_생활쓰레기배출정보.csv","r")
+            y = mylist("정보")                                      #   n = f.readlines()
+            print(y,"\n")                                          #   f.close()
+                                                                   # n[0]
             b = input("알고 싶은 정보를 입력하세요").replace(" ","").split(",")
             for bb in b:
                 if bb in y :
